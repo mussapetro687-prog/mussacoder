@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML, CSS & JavaScript Demo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #dd4c4c;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      font-weight: bold;
+      margin: 20px 0 10px;
+      font-size: 18px;
+    }
+   .picture-section{
+    background-color: #00aaff;
+    width:20px;
+    height:50px;
+    cursor: pointer;
+    box-shadow:1px 10px 20px green;
+   }
+
+    /* ===== AUDIO SECTION ===== */
+    .audio-section {
+      display: flex;
+      gap: 5px;
+      margin-bottom: 20px;
+      border: 2px solid #333;
+    }
+
+    .audio-label {
+      background-color: #006622;
+      color: #00aaff;
+      font-weight: bold;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+      min-width: 50px;
+    }
+
+    .audio-item {
+      flex: 1;
+      background-color: #00661f;
+      padding: 5px;
+      border-left: 1px solid #555;
+    }
+
+    .audio-item p {
+      color: #00aaff;
+      font-size: 12px;
+      text-align: center;
+      margin-bottom: 3px;
+    }
+
+    audio {
+      width: 100%;
+    }
+
+    /* ===== VIDEO SECTION ===== */
+    .video-section {
+      margin-bottom: 20px;
+    }
+
+    video {
+      width: 100%;
+      background-color: #000;
+      display: block;
+    }
+
+    /* ===== TERMS SECTION ===== */
+    .terms-section {
+      margin-bottom: 20px;
+    }
+
+    .terms-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    .terms-grid p {
+      font-size: 13px;
+    }
+
+    /* ===== SPAN & DIV ===== */
+    .span-title {
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      color: rgb(25, 0, 255);
+      font-style: italic;
+      margin: 10px 0;
+    }
+
+    .div-title {
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      background-color: cyan;
+      padding: 5px;
+      margin: 10px 0;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .footer a {
+      color: rgb(121, 212, 17);
+      font-size: 13px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- AUDIO SECTION -->
+  <h2>ENJOY MUSIC AND VIDEO CREATED WITH  JAVASCRIPT,HTML,CSS,AND PYTHON</h2>
+  <div class="audio-section">
+    <div class="audio-label">PLAY<br>BETTER<br>MUSIC</div>
+
+    <div class="audio-item">
+      <p>LIL NAS X JACK HARLOW</p>
+      <audio controls>
+        <source src="file:///C:/Users/HP/Desktop/Lil_Nas_X,_Jack_Harlow_-_INDUSTRY_BABY__Official_Video_.MP3"type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="audio-item">
+      <p>MBOSSO KHAN</p>
+      <audio controls>
+        <source src="file:///C:/Users/HP/Desktop/Mbosso_-_DJ___Official_Music_Video_(256k).mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+  <!-- VIDEO SECTION -->
+  <h2>WELCOME TO OUR WEBSITE TO GET BETTER MUSIC ,THIS BELLOW IS SAMPLE VIDEO</h2>
+  <div class="video-section">
+    <video controls>
+      <source src="file:///C:/Users/HP/Desktop/Drake_-_God_s_Plan(720p).mp4" type="video/mp4">
+      Browser yako haiwezi kucheza video.
+    </video>
+  </div>
+  <!-- TERMS SECTION -->
+  <h2>FILE USING TO DOWNLOAD MUSIC </h2>
+  <div class="terms-section">
+    <div class="terms-grid">
+      <p><mark>AUDIO MARK</mark></p>
+      <p><mark>VIDMATE</mark></p>
+      <p><mark>SPORTIFY</mark></p>
+      <p><mark>SNAPTUBE</mark></p>
+    </div>
+      
+
+
+
+  <!-- SPAN & DIV -->
+  <div class="span-title">
+    <span>This is a span title</span>
+  </div>
+
+  <div class="div-title">
+    This is a div title
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <a href="#"><b>mussa juma petro</b>
+    <a href="#"><b>Reg.No:01.3913.01.03.2025</b>
+  </div>
+
+</body>
+</html>
